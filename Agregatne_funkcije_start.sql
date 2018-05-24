@@ -12,7 +12,7 @@
 
 
 --ZADATAK 1.3
---Iz koliko razlièitih mjesta dolaze studenti fakulteta?
+--Iz koliko razlicitih mjesta dolaze studenti fakulteta?
 --Rješenje:
 
 
@@ -141,4 +141,4 @@
 --ZADATAK 1.22
 --Koliko ima upisanih studenata po organizacijskim jedinicama i broj
 --predmeta na svakom zavodu.
-Rješenje:
+--Rješenje:
