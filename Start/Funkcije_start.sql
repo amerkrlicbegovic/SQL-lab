@@ -1,23 +1,19 @@
 ﻿--5.5.1 ZADACI ZA VJEŽBU	--										
 --ZADATAK ZA VJEŽBU 35.
---Ispišite ime i prezime te mjesto rođenja studenata kojima ime počinje
---slovom F
+--Ispišite ime i prezime te mjesto rođenja studenata kojima ime počinje slovom F
 
 
 --ZADATAK ZA VJEŽBU 36.
---Ispišite ime i prezime nastavnika koji živi u mjestu koje na trećem mjestu
---ima slovo Z.
+--Ispišite ime i prezime nastavnika koji živi u mjestu koje na trećem mjestu ima slovo Z.
 											
  
 		
 --ZADATAK ZA VJEŽBU 37.
---Ispišite ime i prezime studenata te imena i prezimena nastavnika koji u
---imenu imaju na petom mjestu isto slovo.
+--Ispišite ime i prezime studenata te imena i prezimena nastavnika koji u imenu imaju na petom mjestu isto slovo.
 
 
 --ZADATAK ZA VJEŽBU 38.
---Ispišite nazive županija kojima je duljina imena duža od 13 znakova a kraća
---od 20 znakova.
+--Ispišite nazive županija kojima je duljina imena duža od 13 znakova a kraća od 20 znakova.
 
 
 --ZADATAK ZA VJEŽBU 39.
