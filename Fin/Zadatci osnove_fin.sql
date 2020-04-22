@@ -58,26 +58,34 @@ WHERE sifPred IN (SELECT DISTINCT sifPred
 
 --ZADATAK ZA VJEŽBU 16.
 --Ispišite nazive predmeta na koje je izašao barem jedan student.
+USE fakultet;
+SELECT nazPred FROM pred WHERE upisanoStud>=1
 
 
 --ZADATAK ZA VJEŽBU 17.
 --Ispišite sve podatke o studentima kojima ime počinje i završava samoglasnikom.
+USE fakultet;
+SELECT * FROM stud WHERE imeStud REGEXP "^[AEIOU](.*)[aeiou]$"
 
 
 --ZADATAK ZA VJEŽBU 18.
 --Ispišite sve podatke o studentima kojima ime počinje i završava bilo kojim
 --znakom osim samoglasnikom.
+USE fakultet;
+SELECT * FROM stud WHERE imeStud REGEXP "^[^AEIOU](.*)[^aeiou]$"
 
 
 --ZADATAK ZA VJEŽBU 19.
 --Ispišite sve podatke o studentima kojima ime počinje ili završava samoglasnikom.
+USE fakultet;
+SELECT * FROM stud WHERE imeStud REGEXP "^[AEIOU](.*)[aeiou]$"
 
 
 --ZADATAK ZA VJEŽBU 20.
 --Ispišite sve podatke o studentima kojima ime ili prezime bilo gdje sadrži
 --slova n i k jedno iza drugog.
-
-
+USE fakultet;
+SELECT * FROM stud WHERE imeStud LIKE '%nk%' OR prezStud LIKE '%nk%';
 
 
 --ZADATAK ZA VJEŽBU 23.
@@ -207,7 +215,8 @@ WHERE ispit.ocjena IN(2,3))
 
 
  
---5.5.1 ZADACI ZA VJEŽBU	--										
+--5.5.1 ZADACI ZA VJEŽBU
+
 --ZADATAK ZA VJEŽBU 35.
 --Ispišite ime i prezime te mjesto rođenja studenata kojima ime počinje
 --slovom F
